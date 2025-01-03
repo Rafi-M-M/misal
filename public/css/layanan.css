@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* navbar */
+.navbarr{
+  background-image: linear-gradient(lime, green);
+}
+.kontak{
+    cursor: pointer;
+}
+
+.navbar .nav-link {
+  color: black !important;
+}
+
+.offcanvas .nav-link { 
+  color: white !important;
+}
+.offcanvas .nav-link:hover {
+  color: black !important;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .struktur{
+    
+    flex: 1;
+}
+
+  /* Bagian konten utama */
+ 
+  /* Footer tetap di bawah */
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+  }
+/* akhir navbar */
+
+/* file pendaftaran.html */
+  
+ 
+/* akhir file pendaftaran.html */

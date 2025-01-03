@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* navbar */
+
+.kontak {
+    cursor: pointer;
+}
+
+.navbar .nav-link {
+    color: black !important;
+}
+
+.offcanvas .nav-link {
+    color: white !important;
+}
+
+.offcanvas .nav-link:hover {
+    color: black !important;
+}
+
+/* akhir navbar */
+
+
+/* Gambar di bawah navbar */
+.hero-card {
+    height: 400px;
+    position: relative;
+    width: fit-content;
+
+}
+
+.hero-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Overlay warna hitam transparan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .hero-card {
+        height: 300px;
+        /* Sesuaikan tinggi untuk perangkat kecil */
+    }
+
+    .hero-overlay h5 {
+        font-size: 1.5rem;
+    }
+}
+
+/* akhir Gambar di bawah navbar */
+
+/*  kegiatan */
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.hover-zoom {
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.10);
+    /* Perbesar gambar saat di-hover */
+}
+
+.card {
+    overflow: hidden;
+}
+
+/* akhir kegiatan */
+
+.text {
+    text-align: justify;
+}
